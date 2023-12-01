@@ -1,0 +1,44 @@
+{
+    "productos":[
+        {
+            "link":"https://www.mercadolibre.com.ar/aire-acondicionado-split-inverter-hyundai-hy10inv-3200fc-blanco-220v/p/MLA19635631?pdp_filters=category:MLA1644#searchVariation=MLA19635631&position=1&search_layout=stack&type=product&tracking_id=395afc19-b810-40f7-8bc9-a233701bc8d5",
+            "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_893601-MLA51720460137_092022-F.webp",
+            "titulo":"Aire Acondicionado Split Inverter Hyundai HY10INV-3200FC - Blanco - 220V",
+            "precio":"$ 493.974",
+            "cuotas":"en 12x $ 72.820",
+            "envio":"Envío gratis"
+        },
+        {
+            "link":"https://www.mercadolibre.com.ar/memoria-ram-fury-beast-ddr4-gamer-color-negro-16gb-1-kingston-kf432c16bb16/p/MLA19174271?pdp_filters=category:MLA1648#searchVariation=MLA19174271&position=1&search_layout=stack&type=product&tracking_id=bc08a172-4bc9-4a78-a564-d07ca5b6630c",
+            "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_667453-MLA50418240420_062022-F.webp",
+            "titulo":"Memoria Ram Fury Beast Ddr4 Gamer Color Negro 16gb 1 Kingston",
+            "precio":"$ 43.462,50",
+            "cuotas":"en 12x $ 8.725,10",
+            "envio":"Envío gratis"
+        },
+        {
+            "link":"https://www.mercadolibre.com.ar/smart-tv-noblex-dk32x5050pi-led-hd-32/p/MLA19461815?pdp_filters=category:MLA1002#searchVariation=MLA19461815&position=1&search_layout=stack&type=product&tracking_id=db10fef7-dfd6-4107-b3cf-3797fbfa7154",
+            "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_861566-MLA50728044963_072022-F.webp",
+            "titulo":"Smart Tv Noblex Dk32x5050pi Led Hd 32''",
+            "precio":"$ 109.363",
+            "cuotas":"en 12x $ 16.121,93",
+            "envio":"Envío gratis"
+        },
+        {
+            "link":"https://www.mercadolibre.com.ar/disco-duro-externo-western-digital-wd-elements-1tb-negro-color-negro/p/MLA23949673?pdp_filters=category:MLA1672#searchVariation=MLA23949673&position=2&search_layout=stack&type=product&tracking_id=99a87676-f538-456a-bd8d-067e9a8af1bd",
+            "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_627809-MLA51326771407_082022-F.webp",
+            "titulo":"Disco duro externo Western Digital WD Elements Portable WDBU6Y0020BBK 2TB negro",
+            "precio":"$ 82.299",
+            "cuotas":"en 12x $ 16.521,52",
+            "envio":"Envío gratis"
+        },
+        {
+            "link":"https://articulo.mercadolibre.com.ar/MLA-738085375-pack-x4-sillas-tolix-vintage-amarillo-emuebles-_JM#position=20&search_layout=grid&type=item&tracking_id=2d452dbc-8d08-4feb-bb22-1527f405e227",
+            "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_713772-MLA72225848263_102023-F.webp",
+            "titulo":"Pack Combo X8 Unidades Silla Tolix Vintage",
+            "precio":"$ 229.998",
+            "cuotas":"en 12x $ 46.172,10",
+            "envio":"Envío gratis"
+        }
+    ]
+}

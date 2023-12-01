@@ -1,0 +1,16 @@
+{
+    "video": [
+      {
+        "icono": "https://http2.mlstatic.com/D_NQ_761977-MLA70436671354_072023-OO.webp",
+        "titulo": "Mercado Play",
+        "tipo":"Entretenimiento",
+        "gratis": " GRATIS",
+        "fondo":"https://http2.mlstatic.com/D_NQ_944785-MLA71324644925_082023-OO.webp",
+        "link":"https://play.mercadolibre.com.ar/",
+        "video":"https://www.youtube.com/embed/tuNnFtgXMrI?si=oYZLhw1yw_bqCG25",
+        "title":"YouTube video player",
+        "frameborder":"0",
+        "allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      }
+  ]
+}

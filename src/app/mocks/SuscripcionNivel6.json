@@ -1,0 +1,28 @@
+{
+    "suscripcion":{
+        "titulo":"Suscríbete al nivel 6",
+        "precio_anterior":"$ 2500",
+        "precio":"$ 999 /mes"
+    },
+    "beneficios": [
+        {
+            "titulo": "Disney+ sin cargo",
+            "icono": "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/widget-l6/dplus.svg"
+        },
+        {
+            "titulo": "Star+ sin cargo",
+            "icono": "https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/widget-l6/starplus.svg"
+        },
+        {
+            "titulo": "Envíos gratis y rápidos desde $ 10.000 y 45% OFF en envíos de menos de $ 10.000",
+            "icono": "https://http2.mlstatic.com/resources/frontend/statics/loyal/v2/truckgiftv4@2x.png"
+        }
+    ],
+    "boton":{
+        "boton":"Suscríbete",
+        "link":"https://www.mercadolibre.com.ar/suscripciones/nivel-6#origin=widget_l6#c_id=/home/user-loyalty-benefits&c_uid=7e52c08e-2bda-4b0f-9ae4-d2b17431b48e"
+    },
+    "titulo":{
+        "titulo":"Conseguí los mejores beneficios en Mercado Libre"
+    }
+}

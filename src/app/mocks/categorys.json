@@ -1,0 +1,25 @@
+{
+    "categorias":[
+        {
+            "titulo":"Autos, Motos y Otros"
+        },
+        {
+            "titulo":"Computación"
+        },
+        {
+            "titulo":"Electrodomésticos y Aires Ac."
+        },
+        {
+            "titulo":"Deportes y Fitness"
+        },
+        {
+            "titulo":"Inmuebles"
+        },
+        {
+            "titulo":"Belleza y Cuidado Personal"
+        },
+        {
+            "titulo":"Juegos y Juguetes"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "ofertas":[
+        {
+            "titulo":"¡ NO TE LAS PIERDAS !",
+            "texto":"OFERTAS SÓLO POR 24 HORAS",
+            "boton":"Ver más",
+            "imagen":"https://http2.mlstatic.com/D_NQ_NP2X_757654-MLA72723373389_112023-B.webp",
+            "link":"https://listado.mercadolibre.com.ar/accesorios-vehiculos/_Container_cyber-monday#DEAL_ID=MLA35895&S=landingHubcyber-monday&V=25&T=Special-withoutLabel&L=AUTOPARTES&deal_print_id=a9cdec20-7e12-11ee-a97d-e74d3bec5096&c_id=special-withoutlabel&c_element_order=10&c_campaign=AUTOPARTES&c_uid=a9cdec20-7e12-11ee-a97d-e74d3bec5096"
+
+        },
+        {
+            "titulo":"¡ NO TE LAS PIERDAS !",
+            "texto":"DESCUBRÍ TODAS LAS NOVEDADES",
+            "boton":"Ver ofertas",
+            "imagen":"https://http2.mlstatic.com/D_NQ_948773-MLA72739239384_112023-OO.jpg",
+            "link":"https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/climatizacion/_Container_cyber-monday-climatizacion#DEAL_ID=MLA35895&S=landingHubcyber-monday&V=24&T=Special-withoutLabel&L=CLIMATIZACION&deal_print_id=a9cdec20-7e12-11ee-a97d-e74d3bec5096&c_id=special-withoutlabel&c_element_order=9&c_campaign=CLIMATIZACION&c_uid=a9cdec20-7e12-11ee-a97d-e74d3bec5096"
+        }
+    ]
+    
+}
