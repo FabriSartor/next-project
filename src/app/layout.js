@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     
     <html lang="en">
-      <link rel="icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="https://http2.mlstatic.com/static/org-img/homesnw/mercado-libre.png?v=2" />
       <body className={inter.className}>
       
         <HeaderComponent />

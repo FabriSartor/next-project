@@ -56,6 +56,26 @@ export default function SliderCategorias() {
       <SwiperSlide className='pl-[48px]'>
         <div className='flex flex-row'>
           <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
+          <CategoryItem titulo="Computación" icon={iconComputer} link={linkCompus}/>
+          <CategoryItem titulo="Electrodomésticos y Aires Ac." icon={iconElectro} link={linkAutos}/>
+          <CategoryItem titulo="Deportes y Fitness" icon={iconSport} link={linkAutos}/>
+          <CategoryItem titulo="Inmuebles" icon={iconInmuebles} link={linkAutos}/>
+          <CategoryItem titulo="Belleza y Cuidado Personal" icon={iconPersonalCare} link={linkAutos}/>
+          <CategoryItem titulo="Juegos y Juguetes" icon={iconJuegos} link={linkAutos}/>
+        </div>
+        <div className='flex flex-row'>
+          <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
+          <CategoryItem titulo="Computación" icon={iconComputer} link={linkAutos}/>
+          <CategoryItem titulo="Electrodomésticos y Aires Ac." icon={iconElectro} link={linkAutos}/>
+          <CategoryItem titulo="Deportes y Fitness" icon={iconSport} link={linkAutos}/>
+          <CategoryItem titulo="Inmuebles" icon={iconInmuebles} link={linkAutos}/>
+          <CategoryItem titulo="Belleza y Cuidado Personal" icon={iconPersonalCare} link={linkAutos}/>
+          <CategoryItem titulo="Juegos y Juguetes" icon={iconJuegos} link={linkAutos}/>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide className='pl-[48px]'>
+        <div className='flex flex-row'>
+          <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
           <CategoryItem titulo="Computación" icon={iconComputer} link={linkAutos}/>
           <CategoryItem titulo="Electrodomésticos y Aires Ac." icon={iconElectro} link={linkAutos}/>
           <CategoryItem titulo="Deportes y Fitness" icon={iconSport} link={linkAutos}/>
