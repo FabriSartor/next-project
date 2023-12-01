@@ -1,5 +1,6 @@
 "use client"
 
+import './SliderImage.css'
 import CarouselComponent from '../carousel/CarouselComponent';
 import 'swiper/css';
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
@@ -22,7 +23,7 @@ export default function SliderImage() {
     pagination={{ clickable: true }}
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
-    
+    className='swiperImage'
   >
 
     <SwiperSlide>

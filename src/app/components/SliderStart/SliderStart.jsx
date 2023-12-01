@@ -1,5 +1,7 @@
 "use client"
 
+import './SliderStart.css'
+import TitulosHome from '../TitulosHome/TitulosHome';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y } from 'swiper/modules';
@@ -8,34 +10,35 @@ import ProductCard from '../ProductCard/ProductCard';
 import 'swiper/css/a11y'
 const productsStart = require('/ingenieria de sofware 2/next-project/src/app/mocks/productos-inicio.json')
 
-
 export default function SliderStart() {
-
-
-
     return (
-    <Swiper
-      modules={[Navigation,  A11y]}
-      spaceBetween={10}
-      slidesPerView={1}
-      navigation
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-      className=' h-[27rem]'
-    >
-      <SwiperSlide >
-        <ProductCard {...productsStart}/>
-      </SwiperSlide>
-      <SwiperSlide >
-        <ProductCard {...productsStart}/>
-      </SwiperSlide>
-      <SwiperSlide >
-        <ProductCard {...productsStart}/>
-      </SwiperSlide>
-      <SwiperSlide >
-        <ProductCard {...productsStart}/>
-      </SwiperSlide>
-    </Swiper>
+      <>
+        <div className='w-[1200px] mx-auto'>
+          <TitulosHome titulosHome="Basado en tu última visita" tituloLink="Ver historial" link="https://www.mercadolibre.com.ar/gz/home/navigation"/>
+        </div>
+        <Swiper
+          modules={[Navigation,  A11y]}
+          spaceBetween={20}
+          slidesPerView={1}
+          navigation
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+          className='swiperStart h-[27rem] w-[1290px]'
+        >
+          <SwiperSlide className='px-[45px]'>
+            <ProductCard {...productsStart}/>
+          </SwiperSlide>
+          <SwiperSlide className='px-[45px]'>
+            <ProductCard {...productsStart}/>
+          </SwiperSlide>
+          <SwiperSlide className='px-[45px]'>
+            <ProductCard {...productsStart}/>
+          </SwiperSlide>
+          <SwiperSlide className='px-[45px]'>
+            <ProductCard {...productsStart}/>
+          </SwiperSlide>
+        </Swiper>
+      </>
     )
 }
 

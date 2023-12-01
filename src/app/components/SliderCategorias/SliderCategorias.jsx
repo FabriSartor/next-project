@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/a11y'
 import CategoryItem from './CategoryItem/CategoryItem';
+import './SliderCategorias.css'
 
 export default function SliderCategorias() {
 
@@ -30,9 +31,9 @@ export default function SliderCategorias() {
       pagination={{ clickable: false }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className=' h-[19.14rem] mb-5'
+      className='swiperCategorias h-[19.14rem] mb-5 w-[1290px]'
     >
-      <SwiperSlide >
+      <SwiperSlide className='pl-[48px]'>
         <div className='flex flex-row'>
           <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
           <CategoryItem titulo="Computación" icon={iconComputer} link={linkCompus}/>
@@ -52,7 +53,7 @@ export default function SliderCategorias() {
           <CategoryItem titulo="Juegos y Juguetes" icon={iconJuegos} link={linkAutos}/>
         </div>
       </SwiperSlide>
-      <SwiperSlide >
+      <SwiperSlide className='pl-[48px]'>
         <div className='flex flex-row'>
           <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
           <CategoryItem titulo="Computación" icon={iconComputer} link={linkAutos}/>

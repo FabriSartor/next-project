@@ -23,22 +23,13 @@ export default function Home() {
         <Separator>
           <PaymentMethods {...paymentMethods}/>
         </Separator>
+      </MaxWidth>
 
         <Separator>
-          <TitulosHome titulosHome="Basado en tu última visita" tituloLink="Ver historial" link="https://www.mercadolibre.com.ar/gz/home/navigation"/>
           <SliderStart/>
         </Separator>
 
-        <Separator>
-          <TitulosHome titulosHome="Relacionado con tus visitas en Computación" tituloLink="Ver historial" link="https://www.mercadolibre.com.ar/gz/home/navigation"/>
-          <SliderStart/>
-        </Separator>
-
-        <Separator>
-          <TitulosHome titulosHome="Ofertas" tituloLink="Ver todas" link="https://www.mercadolibre.com.ar/ofertas#c_id=/home/promotions-recommendations&c_uid=0f115979-7521-46e1-bf03-1df868895736"/>
-          <SliderStart/>
-        </Separator>
-
+      <MaxWidth>
         <Separator>
           <Nivel6 />
         </Separator>
@@ -51,15 +42,23 @@ export default function Home() {
         <Separator>
           <TitulosHome titulosHome="Beneficios de Mercado Puntos" tituloLink="Ver todos los beneficios" link="https://www.mercadolibre.com.ar/mercado-puntos#origin=onboarding"/>
           <MercadoPuntos />
-          <Moulinex />
-          <Ofertas />
+          <Separator>
+            <Moulinex />
+          </Separator>
+          <Separator>
+            <Ofertas />
+          </Separator>
         </Separator>
-
+        
         <Separator>
-          <TitulosHome titulosHome="Categorías Populares"/>
-          <SliderCategorias />  
         </Separator> 
+        <TitulosHome titulosHome="Categorías Populares"/>
+
       </MaxWidth>
+      
+        <SliderCategorias />  
+        
+        
     </div>
   );
 }

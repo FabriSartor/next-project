@@ -1,0 +1,42 @@
+.swiperCategorias .swiper-button-prev,
+.swiperCategorias .swiper-button-next {
+    top: 47% !important;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    opacity: 0;
+    border-width: 1px;
+    border-color: rgb(228, 227, 227);
+    -webkit-box-shadow: 1px 1px 6px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 6px -4px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 6px -4px rgba(0,0,0,0.75);
+}
+.swiperCategorias .swiper-button-prev {
+    left: 15px;
+}
+
+.swiperCategorias .swiper-button-next {
+    right: 18px;
+}
+
+.swiperCategorias .swiper-button-prev.swiper-button-disabled,
+.swiperCategorias .swiper-button-next.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+.swiperCategorias:hover .swiper-button-next,
+.swiperCategorias:hover .swiper-button-prev {
+    opacity: 100;
+}
+
+.swiperCategorias .swiper-button-prev:hover,
+.swiperCategorias .swiper-button-next:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.swiperCategorias .swiper-button-prev::after,
+.swiperCategorias .swiper-button-next::after {
+    font-size: 27px !important;
+    font-weight: 600 !important;
+}

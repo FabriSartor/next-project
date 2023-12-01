@@ -8,8 +8,8 @@ export default function BeneficiosPuntos ({beneficios}) {
             {
                 beneficios.map(item => {
                     return (
-                        <a href={item.link}>
-                            <div className="flex h-[280px] w-[24rem] rounded-md items-end"
+                        <Link href={item.link}>
+                            <div className="flex items-end h-[280px] w-[24rem] rounded-md"
                                 style={{
                                     backgroundImage: `url(${item.fondo})`,
                                     backgroundSize: '100% 100%',
@@ -25,7 +25,7 @@ export default function BeneficiosPuntos ({beneficios}) {
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     )
                 })
             }
