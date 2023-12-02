@@ -13,9 +13,6 @@ const productsStart = require('/ingenieria de sofware 2/next-project/src/app/moc
 export default function SliderStart() {
     return (
       <>
-        <div className='w-[1200px] mx-auto'>
-          <TitulosHome titulosHome="Basado en tu última visita" tituloLink="Ver historial" link="https://www.mercadolibre.com.ar/gz/home/navigation"/>
-        </div>
         <Swiper
           modules={[Navigation,  A11y]}
           spaceBetween={20}

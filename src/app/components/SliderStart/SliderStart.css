@@ -12,7 +12,7 @@
 
 .swiperStart .swiper-button-prev.swiper-button-disabled,
 .swiperStart .swiper-button-next.swiper-button-disabled {
-    opacity: 0 !important;
+    opacity: 0;
 }
 
 .swiperStart .swiper-button-prev:hover,
@@ -25,6 +25,14 @@
 
 .swiperStart .swiper-button-prev::after,
 .swiperStart .swiper-button-next::after {
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 600;
+}
+
+.swiperStart .swiper-button-next::after {
+    margin-left: 5px;
+}
+
+.swiperStart .swiper-button-prev::after {
+    margin-right: 5px;
 }

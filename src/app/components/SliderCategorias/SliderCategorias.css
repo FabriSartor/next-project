@@ -32,8 +32,16 @@
 
 .swiperCategorias .swiper-button-prev::after,
 .swiperCategorias .swiper-button-next::after {
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 600;
+}
+
+.swiperCategorias .swiper-button-next::after {
+    margin-left: 5px;
+}
+
+.swiperCategorias .swiper-button-prev::after {
+    margin-right: 5px;
 }
 
 .swiperCategorias .swiper-pagination-bullet {

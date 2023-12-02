@@ -26,6 +26,9 @@ export default function Home() {
       </MaxWidth>
 
         <Separator>
+          <MaxWidth>
+            <TitulosHome titulosHome="Basado en tu última visita" tituloLink="Ver historial" link="https://www.mercadolibre.com.ar/gz/home/navigation"/>
+          </MaxWidth>
           <SliderStart/>
         </Separator>
 
@@ -47,14 +50,13 @@ export default function Home() {
         </Separator>
         
         <Separator>
+          <TitulosHome titulosHome="Categorías Populares"/>
         </Separator> 
-        <TitulosHome titulosHome="Categorías Populares"/>
 
       </MaxWidth>
       
         <SliderCategorias />  
-        
-        
+          
     </div>
   );
 }
