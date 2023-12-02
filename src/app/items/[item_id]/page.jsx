@@ -1,5 +1,8 @@
 export default function ItemDescriptionPage({params}) {
+    console.log(params)
     return (
-        <h1>item: {params.item_id}</h1>
+        <div>
+            <h1>{params.item_id}</h1>
+        </div>
     )
 }

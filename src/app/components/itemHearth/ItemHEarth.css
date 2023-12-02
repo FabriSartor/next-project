@@ -1,0 +1,9 @@
+.item:hover .hearth {
+    opacity: 1;
+}
+.hearth {
+    cursor: pointer;
+}
+.hearth:active {
+    color: #007bff;
+}

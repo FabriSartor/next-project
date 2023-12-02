@@ -42,12 +42,8 @@ export default function Home() {
         <Separator>
           <TitulosHome titulosHome="Beneficios de Mercado Puntos" tituloLink="Ver todos los beneficios" link="https://www.mercadolibre.com.ar/mercado-puntos#origin=onboarding"/>
           <MercadoPuntos />
-          <Separator>
-            <Moulinex />
-          </Separator>
-          <Separator>
-            <Ofertas />
-          </Separator>
+          <Moulinex />
+          <Ofertas />
         </Separator>
         
         <Separator>

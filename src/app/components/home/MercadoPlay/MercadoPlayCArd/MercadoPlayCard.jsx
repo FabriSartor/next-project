@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function MercadoPlayCard ({video, icon}) {
 
     return(
-        <div className=" h-[350px] ">
+        <div className=" h-[350px]">
             {
                 video.map(item => {
                     return (
@@ -24,7 +24,7 @@ export default function MercadoPlayCard ({video, icon}) {
                                     </div>
                                 </div>
                                 <div className="w-[600px] h-[100%] flex justify-end items-center ">
-                                    <iframe className=" w-[540px] h-[300px] mr-6" src={item.video} title={item.title} frameborder={item.frameborder} allow={item.allow}></iframe>
+                                    <iframe await className=" w-[540px] h-[300px] mr-6" src={item.video} title={item.title} frameborder={item.frameborder} allow={item.allow}></iframe>
                                 </div>
                             </div>
                         </Link>

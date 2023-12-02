@@ -31,10 +31,10 @@ export default function SliderCategorias() {
       pagination={{ clickable: false }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className='swiperCategorias h-[19.14rem] mb-5 w-[1290px]'
+      className='swiperCategorias h-[22rem] w-[1290px]'
     >
-      <SwiperSlide className='pl-[48px]'>
-        <div className='flex flex-row'>
+      <SwiperSlide className='pl-[48px] mt-5'>
+        <div className='flex flex-row '>
           <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
           <CategoryItem titulo="Computación" icon={iconComputer} link={linkCompus}/>
           <CategoryItem titulo="Electrodomésticos y Aires Ac." icon={iconElectro} link={linkAutos}/>
@@ -53,8 +53,8 @@ export default function SliderCategorias() {
           <CategoryItem titulo="Juegos y Juguetes" icon={iconJuegos} link={linkAutos}/>
         </div>
       </SwiperSlide>
-      <SwiperSlide className='pl-[48px]'>
-        <div className='flex flex-row'>
+      <SwiperSlide className='pl-[48px] mt-5'>
+        <div className='flex flex-row '>
           <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
           <CategoryItem titulo="Computación" icon={iconComputer} link={linkCompus}/>
           <CategoryItem titulo="Electrodomésticos y Aires Ac." icon={iconElectro} link={linkAutos}/>
@@ -73,8 +73,8 @@ export default function SliderCategorias() {
           <CategoryItem titulo="Juegos y Juguetes" icon={iconJuegos} link={linkAutos}/>
         </div>
       </SwiperSlide>
-      <SwiperSlide className='pl-[48px]'>
-        <div className='flex flex-row'>
+      <SwiperSlide className='pl-[48px] mt-5'>
+        <div className='flex flex-row '>
           <CategoryItem titulo="Autos, Motos y Otros" icon={iconCar} link={linkAutos}/>
           <CategoryItem titulo="Computación" icon={iconComputer} link={linkAutos}/>
           <CategoryItem titulo="Electrodomésticos y Aires Ac." icon={iconElectro} link={linkAutos}/>

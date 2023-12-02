@@ -1,6 +1,5 @@
 "use client"
 
-
 export default function OfertasItem ({ofertas}) {
     return (
         <div className="flex h-[240px] justify-between ">
