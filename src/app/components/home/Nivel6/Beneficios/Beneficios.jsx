@@ -3,7 +3,7 @@ export default function Beneficios({beneficios, titulo}) {
     return (
         <div className="bg-white h-[25vh] flex flex-col justify-between">
             <h2 className=" ml-5 pt-5 text-lg font-medium">{titulo.titulo}</h2>
-            <div className="flex flex-1">   
+            <div className="flex flex-1">
                 {
                     beneficios.map(item =>{
                         return(

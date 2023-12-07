@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import ListItem from "../../list-item/ListItem"; 
+import ListItem from "./list-item/ListItem"; 
 import MaxWidth from "../Shader componen/MaxWidth/MaxWidth";
 
 export default function ItemsPage ({searchParams}) {

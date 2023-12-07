@@ -20,7 +20,7 @@ export default function SliderImage() {
     autoplay={{ delay: 4000, disableOnInteraction: false }}
     loop={true}
     navigation
-    pagination={{ clickable: true }}
+    pagination={{ clickable: false }}
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
     className='swiperImage'

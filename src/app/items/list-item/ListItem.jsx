@@ -1,7 +1,7 @@
-import '../app/components/itemHearth/ItemHEarth.css'
-import ImagenItem from "../app/components/ImagenItem/ImagenItem";
-import ProductDescription from "../app/components/ItemInformation/ItemInformation";
-import ItemHearth from "../app/components/itemHearth/ItemHearth";
+import '../../components/itemHearth/ItemHEarth.css'
+import ImagenItem from "../../components/ImagenItem/ImagenItem";
+import ProductDescription from "../../components/ItemInformation/ItemInformation";
+import ItemHearth from "../../components/itemHearth/ItemHearth";
 
 export default function ListItem({permalink, thumbnail, title, price, currency_id, shipping, installments, condition, attributes }){
 	return(

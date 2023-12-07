@@ -4,7 +4,7 @@ import MeliIconNav from "./navbar/MeliIconNav"
 
 export default function HeaderComponent() {
     return (
-        <div className=" sticky top-0 z-50">
+        <>
           <header className='w-full bg-meli'>
             <div className="max-w-[1200px] mx-auto py-2 flex items-center">
               <MeliIconNav/>
@@ -14,6 +14,6 @@ export default function HeaderComponent() {
               </div>
             </div>
           </header>
-        </div>
+        </>
     )
 }
