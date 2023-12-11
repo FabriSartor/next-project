@@ -15,8 +15,8 @@ export default function MercadoPlayCard ({video, icon}) {
                             backgroundSize: '100% 100%'
                         }}>
                             <div className=" h-[100%] w-[100%] flex flex-col ml-10 justify-center">
-                                <span className=" text-3xl font-semibold text-white">{item.titulo}</span>
-                                <span className=" text-3xl leading-9 font-semibold text-white">{item.titulo_secundario}</span>
+                                <span className=" text-3xl font-semibold leading-10 text-white">{item.titulo}</span>
+                                <span className=" text-3xl leading-10 font-semibold text-white">{item.titulo_secundario}</span>
                                 <span className=" text-xs font-medium text-white bg-green-600 w-[55px] text-center flex justify-center items-center rounded-xl p-[0.3rem] mt-3">{item.gratis}</span>
                                 <span className=" text-sm text-white p-2 flex items-center justify-center w-[150px] rounded-md bg-white bg-opacity-20 h-8 mt-5 font-semibold">{item.button}</span>
                             </div>

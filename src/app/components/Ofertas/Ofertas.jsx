@@ -4,7 +4,7 @@ const ofertasInformation = require('/ingenieria de sofware 2/next-project/src/ap
 export default function Ofertas () {
   return (
     <>
-        <OfertasItem {... ofertasInformation}/>
+      <OfertasItem {... ofertasInformation}/>
     </>
   )
 }

@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.swiperStart .swiper-button-prev {
+    left: 9px;
+}
+
 .swiperStart .swiper-button-prev.swiper-button-disabled,
 .swiperStart .swiper-button-next.swiper-button-disabled {
     display: none;
